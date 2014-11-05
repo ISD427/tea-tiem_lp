@@ -19,9 +19,12 @@ body {
 .contents {
     background-color: rgba(0, 0, 0, 0.3);
 }
+.description p{
+    text-align: left;
+}
 #top {
     width: 100%;
-    height: 800px;
+    height: 1000px;
     font-size: 200%;
     padding-top: 300px;
 }
@@ -37,9 +40,9 @@ body {
 .responsive-video iframe, .responsive-video object, .responsive-video embed {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
 }
 .screen img {
     width: 50%;
