@@ -1,9 +1,9 @@
 body {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     /*    font-family: "メイリオ", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;*/
     
-    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
     background: url("../images/top.png") center center / cover no-repeat fixed;
     color: #ddd;
 }
@@ -19,7 +19,7 @@ body {
 .contents {
     background-color: rgba(0, 0, 0, 0.3);
 }
-.description p{
+.description p {
     text-align: left;
 }
 #top {
@@ -40,9 +40,9 @@ body {
 .responsive-video iframe, .responsive-video object, .responsive-video embed {
     position: absolute;
     top: 0;
-    left: 10%;
-    width: 80%;
-    height: 80%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
 }
 .screen img {
     width: 50%;
@@ -53,7 +53,7 @@ body {
 }
 h1 {
     color: #fff;
-    font-size: 130%;
+    font-size: 150%;
 }
 h2 {
     color: #fff;
