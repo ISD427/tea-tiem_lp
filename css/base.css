@@ -1,5 +1,5 @@
 body {
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: center;
     /*    font-family: "メイリオ", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;*/
     
@@ -13,11 +13,11 @@ body {
     }
 }
 .block {
-    padding: 50px 0;
+    padding: 100px 0;
     /*border: 0.3px solid #999;*/
 }
 .contents {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .description p {
     text-align: left;
@@ -44,12 +44,17 @@ body {
     width: 70%;
     height: 70%;
 }
-.screen img {
+#img-main {
     width: 50%;
     height: 50%;
 }
+#img-message {
+    width: 75%;
+    height: 75%;
+}
 .description {
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 h1 {
     color: #fff;
